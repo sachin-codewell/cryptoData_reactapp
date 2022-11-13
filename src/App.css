@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: rgb(20,22,26);
+}
+
+.heading {
+    color: gold;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-list{
+    position: relative;
+    margin-top: -130px;
+}
+
+.tablestyle{
+    color: white;
+    align-items: center;
+    text-align: center;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+.crypto-image{
+    text-align: center;
+}
+.crypto-image img{
+    height: 200px;
+    width: 200px;
+}
+
+.coin-info{
+    color: white;
+}
